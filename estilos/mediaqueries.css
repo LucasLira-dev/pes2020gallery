@@ -1,4 +1,12 @@
-@charset "UTF-8"; 
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    .imgpequena {
+        display: none;
+    }
+}
+
+
 
 @media screen and (min-width: 992px) {
 
@@ -19,6 +27,10 @@
         width: 1000px;
     }
 
+    .imgpequena {
+        display: block;
+    }
+
     #conteiner {
         display: flex;
         flex-flow: row wrap;
@@ -28,6 +40,11 @@
 
     #conteiner > div img {
         width: 500px;
+    }
+
+    .especial {
+        width: 50%;
+        display: none;
     }
 
     footer {
