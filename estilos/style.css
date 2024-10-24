@@ -102,6 +102,15 @@ footer p {
     text-indent: 5px;
     text-align: justify;
     padding: 10px;
+    text-align: center;
+}
+
+#cr7 {
+   display: none;
+}
+
+#messi {
+    display: none;
 }
 
 #nome {

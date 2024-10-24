@@ -49,11 +49,29 @@
 
     footer {
         width: 100vw;
+        position: relative;
     }
 
     footer p {
-        width: 800px;
         text-align: center;
+        width: 800px;
+        padding-top: 25px;
         margin: auto;
+    }
+
+    #cr7 {
+        position: absolute;
+        display: block;
+        width: 300px;
+        left: 1100px;
+        top: 5px;
+    }
+
+    #messi {
+        position: absolute;
+        display: block;
+        width: 350px;
+        left: 80px;
+        top: 15px;
     }
 }
