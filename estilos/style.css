@@ -19,6 +19,7 @@
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
+    transition: .5s;
 }
 
 
@@ -28,7 +29,7 @@ body {
 }
 
 .dark-mode footer {
-    background-color: white;
+    background-color: gray;
 }
 
 .dark-mode footer p {
@@ -58,7 +59,7 @@ h1 {
 
 span {
     margin-left: 20px;
-   
+    cursor: pointer;
 }
 
 
@@ -101,6 +102,11 @@ footer p {
     text-indent: 5px;
     text-align: justify;
     padding: 10px;
+}
+
+#nome {
+    font-weight: bolder;
+    text-align: center;
 }
 
 
