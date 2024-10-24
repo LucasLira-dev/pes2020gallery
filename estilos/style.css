@@ -11,6 +11,30 @@
     height: 0px;
 }
 
+.dark-mode {
+    --cor-fundo: black;
+    --cor-texto: white;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+
+
+.dark-mode h1 {
+    color: white;
+}
+
+.dark-mode footer {
+    background-color: white;
+}
+
+.dark-mode footer p {
+    color: black;
+}
+
 header img#mobile {
     width: 100vw;
     height: 250px;
@@ -31,6 +55,13 @@ h1 {
     border-left:  4px solid #BC0000;
     padding-left: 5px;
 }
+
+span {
+    margin-left: 20px;
+   
+}
+
+
 
 #conteiner {
     display: flex;
