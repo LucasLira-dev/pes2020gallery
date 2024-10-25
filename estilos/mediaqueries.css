@@ -4,6 +4,23 @@
     .imgpequena {
         display: none;
     }
+
+    #conteiner {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #mobile {
+        display: none;
+    }
+
+    #pc {
+        display: block;
+        height: 200px;
+        width: 100vw;
+    }
 }
 
 
@@ -43,8 +60,8 @@
     }
 
     .especial {
-        width: 50%;
-        display: none;
+        width: 500px;
+        display: inline-block;
     }
 
     footer {
@@ -73,5 +90,25 @@
         width: 350px;
         left: 80px;
         top: 15px;
+    }
+}
+
+@media screen and (width: 1024px) {
+    #cr7 {
+        display: none;
+    }
+
+    #messi {
+        display: none;
+    }
+}
+
+@media screen and (width: 1280px) {
+    #cr7 {
+        display: none;
+    }
+
+    #messi {
+        display: none;
     }
 }
