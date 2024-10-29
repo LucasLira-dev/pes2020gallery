@@ -11,6 +11,8 @@
     height: 0px;
 }
 
+
+
 .dark-mode {
     --cor-fundo: black;
     --cor-texto: white;
@@ -47,6 +49,7 @@ header img#mobile {
 
 section {
     margin: auto;
+   
 }
 
 
@@ -55,7 +58,9 @@ h1 {
     margin-left: 15px;
     border-left:  4px solid #BC0000;
     padding-left: 5px;
+   
 }
+
 
 span {
     margin-left: 20px;
