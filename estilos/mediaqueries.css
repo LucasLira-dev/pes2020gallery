@@ -71,6 +71,10 @@
         width: 500px;
     }
 
+    .imgpequena{
+        display: none;
+    }
+
     .especial {
         width: 500px;
         display: inline-block;

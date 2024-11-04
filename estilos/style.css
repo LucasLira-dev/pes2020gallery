@@ -90,13 +90,42 @@ div.especial img {
     
     
 }
- #conteiner > div img {
+ #imagens {
    margin-top: 15px;
    padding: 10px;
    width: 100%;
 }
 
+.galeria-modal{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(3px);
+    position: fixed;
+    top: 0;
+    left: 0; 
+    display: none;
+    z-index: 5;
+    padding: 4%;
+    
+}
 
+ .galeria-modal P {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    
+    font-size: 22px;
+    color: red;
+    cursor: pointer;
+}
+
+.galeria-modal img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+    transform: scale(0);
+    transition: transform 0.5s ease-in-out;
+}
 
 
 footer {
